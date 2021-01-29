@@ -76,4 +76,27 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#eeff00"
   }
+
+
+
+   // getElementById:
+   "getElementById": {
+    "prefix": "did",
+    "body": ["document.getElementById('$1');"],
+    "description": "getElementById"
+  },
+  // Randon Number:
+  "Randon Number": {
+    "prefix": "rdn",
+    "body": [
+      "const randomNumber = Math.floor(Math.random() * ${1:9} + ${2:1});"
+    ],
+    "description": "Randon Number"
+  },
+  // arrow Function:
+  "arrow Function": {
+    "prefix": "af",
+    "body": ["const ${1:name} = ($2) => {", "    $0", "};"],
+    "description": "arrow Function"
+  }
 }
