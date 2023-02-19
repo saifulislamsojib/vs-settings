@@ -23,4 +23,5 @@
 <li>Reactjs code snippets</li>
 <li>Tabnine AI Autocomplete</li>
 <li>Tailwind CSS IntelliSense</li>
+<li>Thunder Client</li>
 </ol>
