@@ -102,10 +102,12 @@
     "editor.defaultFormatter": null
   },
 
-
+  
+  
+  // user snippets
 
    // getElementById:
-   "getElementById": {
+  "getElementById": {
     "prefix": "did",
     "body": ["document.getElementById('$1');"],
     "description": "getElementById"
@@ -123,5 +125,30 @@
     "prefix": "af",
     "body": ["const ${1:name} = ($2) => {", "    $0", "};"],
     "description": "arrow Function"
+  },
+
+  // express:
+  "express": {
+    "prefix": "exp",
+    "body": [
+      "const express = require('express');",
+      "const cors = require('cors');",
+      "",
+      "const app = express();",
+      "",
+      "app.use(express.json());",
+      "app.use(cors());",
+      "",
+      "const port = 4000;",
+      "",
+      "app.get('/', (req, res) => {",
+      "  res.send('Hello Server!')",
+      "});",
+      "",
+      "app.listen(port, () => {",
+      "  console.log(`Example app listening at http://localhost:${1:port}`);",
+      "});"
+    ],
+    "description": "express"
   }
 }
