@@ -10,6 +10,7 @@
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.mouseWheelZoom": true,
+  "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
 
@@ -29,6 +30,9 @@
 
   // editor code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
