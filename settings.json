@@ -69,6 +69,10 @@
     "c": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe",
     "cpp": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe"
   },
+  
+  // c / c++ configs
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
 
   // Spell checker ignore words
   "cSpell.userWords": [
