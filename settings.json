@@ -61,10 +61,13 @@
 
   // code runner
   "code-runner.runInTerminal": true,
-  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.terminalRoot": "/",
   "code-runner.executorMap": {
-    "c": "mkdir -p dist && g++ \"./src/$fileName\" -o \"./dist/$fileNameWithoutExt.exe\" && \"./dist/$fileNameWithoutExt.exe\"",
-    "cpp": "mkdir -p dist && g++ \"./src/$fileName\" -o \"./dist/$fileNameWithoutExt.exe\" && \"./dist/$fileNameWithoutExt.exe\""
+    // "c": "mkdir -p dist && gcc $dir$fileName -o ./dist/$fileNameWithoutExt.exe && ./dist/$fileNameWithoutExt.exe",
+    // "c": "cd $dir && mkdir -p dist && gcc $fileName -o dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe"
+    "c": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe",
+    "cpp": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe"
   },
 
   // Spell checker ignore words
