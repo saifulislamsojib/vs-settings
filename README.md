@@ -24,4 +24,5 @@
 <li>Tabnine AI Autocomplete</li>
 <li>Tailwind CSS IntelliSense</li>
 <li>Thunder Client</li>
+<li>Better Comments</li>
 </ol>
