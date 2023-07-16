@@ -13,6 +13,7 @@
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
 
   // editor cursor
   "editor.cursorSmoothCaretAnimation": "on",
