@@ -65,8 +65,6 @@
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.terminalRoot": "/",
   "code-runner.executorMap": {
-    // "c": "mkdir -p dist && gcc $dir$fileName -o ./dist/$fileNameWithoutExt.exe && ./dist/$fileNameWithoutExt.exe",
-    // "c": "cd $dir && mkdir -p dist && gcc $fileName -o dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe"
     "c": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe < input.txt > output.txt",
     "cpp": "mkdir -p $dir/dist && gcc $dir$fileName -o $dir/dist/$fileNameWithoutExt.exe && $dir/dist/$fileNameWithoutExt.exe < input.txt > output.txt"
   },
