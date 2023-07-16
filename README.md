@@ -26,5 +26,6 @@
 <li>Better Comments</li>
 <li>Console Ninja</li>
 <li>MongoDB for VS Code</li>
+<li>vscode-styled-components</li>
 <li>Inline fold</li>
 </ol>
