@@ -187,7 +187,7 @@
       "",
       "export default $1"
     ],
-    "description": ""
+    "description": "Page React Component"
   },
   
   // React Component
@@ -204,6 +204,22 @@
       "",
       "export default $1;"
     ],
-    "description": ""
+    "description": "React Component"
+  },
+
+  // c language
+   // C Boilerplate
+  "C Boilerplate": {
+    "prefix": "phi",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main()",
+      "{",
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C Boilerplate"
   }
 }
