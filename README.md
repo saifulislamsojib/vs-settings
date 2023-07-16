@@ -7,12 +7,11 @@
 <li>Code Spell Checker</li>
 <li>ESLint</li>
 <li>Import Cost</li>
-<li>Inline fold</li>
 <li>IntelliCode</li>
 <li>IntelliCode API Usage Examples</li>
 <li>IntelliSense for CSS class names in HTML</li>
 <li>JavaScript (ES6) code snippets</li>
-<li>Learn with Sumit Theme</li>
+<li>Learn with Sumit Theme / Dracula Official</li>
 <li>Live Server</li>
 <li>Material Icon Theme</li>
 <li>Path Intellisense</li>
@@ -25,4 +24,6 @@
 <li>Tailwind CSS IntelliSense</li>
 <li>Thunder Client</li>
 <li>Better Comments</li>
+<li>Console Ninja</li>
+<li>Inline fold</li>
 </ol>
