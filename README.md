@@ -28,4 +28,5 @@
 <li>MongoDB for VS Code</li>
 <li>vscode-styled-components</li>
 <li>Inline fold</li>
+<li>Competitive Programming Helper (cph)</li>
 </ol>
