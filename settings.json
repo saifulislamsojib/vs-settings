@@ -75,6 +75,7 @@
 
   // Spell checker ignore words
   "cSpell.userWords": [
+    "Arif",
     "Bangla",
     "cloudinary",
     "Demra",
@@ -83,14 +84,16 @@
     "fortawesome",
     "noreferrer",
     "preconnect",
+    "Roboto",
+    "saiful",
     "Sarulia",
     "signup",
-    "Swiper",
-    "youtube",
-    "saiful",
     "sojib",
     "Sojib",
-    "Arif"
+    "splitted",
+    "Swiper",
+    "typeof",
+    "youtube"
   ],
 
   // configuration for eslint projects
