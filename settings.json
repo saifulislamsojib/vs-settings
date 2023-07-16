@@ -96,6 +96,14 @@
     "youtube"
   ],
 
+  // tailwind CSS
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "activeClassName"
+  ],
+
   // configuration for eslint projects
   "javascript.validate.enable": false,
   "[javascript]": {
