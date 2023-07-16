@@ -171,5 +171,39 @@
       "});"
     ],
     "description": "express"
+  },
+  
+  // Page React Component
+  "Page React Component": {
+    "prefix": "prc",
+    "body": [
+      "const ${1:${TM_DIRECTORY/^.+\\\\(.*)$/$1/}} = () => {",
+      "    return (",
+      "        <div>",
+      "           $1$2",
+      "        </div>",
+      "    );",
+      "};",
+      "",
+      "export default $1"
+    ],
+    "description": ""
+  },
+  
+  // React Component
+  "React Component": {
+    "prefix": "rsc",
+    "body": [
+      "const ${1:$TM_FILENAME_BASE} = () => {",
+      "    return (",
+      "        <div>",
+      "           $1$2",
+      "        </div>",
+      "    );",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": ""
   }
 }
