@@ -59,6 +59,7 @@
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
 
   // code runner
   "code-runner.runInTerminal": true,
@@ -103,6 +104,14 @@
     "ngClass",
     "activeClassName"
   ],
+
+  // typescript
+  "typescript.experimental.tsserver.web.typeAcquisition.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+
+  // others
+  "console-ninja.featureSet": "Community",
 
   // configuration for eslint projects
   "javascript.validate.enable": false,
