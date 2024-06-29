@@ -112,6 +112,7 @@
 
   // others
   "console-ninja.featureSet": "Community",
+  "git.autofetch": true,
 
   // configuration for eslint projects
   "javascript.validate.enable": false,
