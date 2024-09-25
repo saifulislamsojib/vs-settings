@@ -5,6 +5,7 @@
 <li>Code Runner</li>
 <li>Code Spell Checker</li>
 <li>Console Ninja</li>
+<li>Docker</li>
 <li>ES7+ React/Redux/React-Native snippets / Reactjs code snippets</li>
 <li>ESLint</li>
 <li>GitLens — Git supercharged</li>
