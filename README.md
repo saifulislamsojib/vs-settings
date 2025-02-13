@@ -39,4 +39,5 @@
 <li>Prisma</li>
 <li>React Native Tools</li>
 <li>Vitest</li>
+<li>es6-string-html</li>
 </ol>
