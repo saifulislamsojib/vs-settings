@@ -33,4 +33,10 @@
 <li>Inline fold</li>
 <li>Competitive Programming Helper (cph)</li>
 <li>Turbo Console Log</li>
+<li>Codeium</li>
+<li>GitHub Actions</li>
+<li>GitHub Copilot</li>
+<li>Prisma</li>
+<li>React Native Tools</li>
+<li>Vitest</li>
 </ol>
