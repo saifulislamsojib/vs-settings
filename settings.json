@@ -1,20 +1,19 @@
 {
   // window and workbench
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+  "workbench.colorTheme": "Dracula Theme Soft",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
 
   // editor font and other settings
   "editor.fontSize": 22,
-  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.mouseWheelZoom": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
-  "editor.suggestSelection": "first",
-  "editor.inlineSuggest.showToolbar": "always"
+  "editor.inlineSuggest.showToolbar": "always",
 
   // editor cursor
   "editor.cursorSmoothCaretAnimation": "on",
@@ -52,16 +51,13 @@
   "files.autoSave": "onFocusChange",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "tabnine.experimentalAutoImports": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "security.workspace.trust.untrustedFiles": "open",
 
   // terminal configurations
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 17,
-  "terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-  "terminal.integrated.tabs.enabled": true,
-  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.fontFamily": "Fira Code",
 
   // code runner
   "code-runner.runInTerminal": true,
@@ -78,11 +74,9 @@
 
   // Spell checker ignore words
   "cSpell.userWords": [
-    "Arif",
     "Bangla",
     "cloudinary",
     "Demra",
-    "fibo",
     "fontawesome",
     "fortawesome",
     "noreferrer",
