@@ -32,7 +32,13 @@
   // editor code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
   },
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
