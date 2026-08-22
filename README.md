@@ -11,10 +11,13 @@
 <li>ES7+ React/Redux/React-Native snippets / Reactjs code snippets</li>
 <li>ESLint</li>
 <li>GitLens — Git supercharged</li>
+<li>Go</li>
 <li>Import Cost</li>
 <li>CodeRabbit</li>
 <li>Codex – OpenAI’s coding agent</li>
 <li>IntelliSense for CSS class names in HTML / HTML CSS Support</li>
+<li>Kilo Code</li>
+<li>Kimi Code</li>
 <li>JavaScript (ES6) code snippets</li>
 <li>Learn with Sumit Theme / Dracula Theme Official</li>
 <li>Live Server</li>
@@ -24,6 +27,7 @@
 <li>npm Intellisense</li>
 <li>Path Intellisense</li>
 <li>Polacode</li>
+<li>Oxc</li>
 <li>Prettier - Code formatter</li>
 <li>Pretty TypeScript Errors</li>
 <li>Tailwind CSS IntelliSense</li>
@@ -42,6 +46,7 @@
 <li>Vitest</li>
 <li>es6-string-html</li>
 <li>Claude Code for VS Code</li>
+<li>Cline</li>
 <li>YAML</li>
 <li>Error Lens</li>
 <li>Go</li>
